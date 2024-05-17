@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+
+<head>
+    <style type="text/css">
+        div {
+            width: 100px;
+            height: 75px;
+            background-color: red;
+            border: 1px solid black;
+        }
+
+        #div2 {
+            transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            /* IE 9 */
+            -moz-transform: rotate(30deg);
+            /* Firefox */
+            -webkit-transform: rotate(30deg);
+            /* Safari and Chrome */
+            -o-transform: rotate(30deg);
+            /* Opera */
+            background-color: yellow;
+        }
+    </style>
+    <script src="light-cursor.js" type="text/javascript"> </script>
+</head>
+
+<body>
+
+    <!-- <p onclick="A()" id="inspo" src="a8.jpg">OK</p> -->
+    <p id="startno">1</p>
+    <p id="endno">2</p>
+    <h3>Start Position</h3>
+    <button class="left-1" onclick="move(0,-10)">-10</button>
+    <button class="left-1" onclick="move(0,-5)">-5</button>
+    <button class="right-1" onclick="move(0,-1)">-1</button>
+    <button class="right-5" onclick="move(0,1)">+1</button>
+    <button class="right-10" onclick="move(0,5)">+5</button>
+    <button class="right-10" onclick="move(0,10)">+10</button>
+    <h3>End Position</h3>
+    <button class="left-1" onclick="move(1,-10)">-10</button>
+    <button class="left-1" onclick="move(1,-5)">-5</button>
+    <button class="right-1" onclick="move(1,-1)">-1</button>
+    <button class="right-5" onclick="move(1,1)">+1</button>
+    <button class="right-10" onclick="move(1,5)">+5</button>
+    <button class="right-10" onclick="move(1,10)">+10</button>
+
+</body>
+
+</html>
