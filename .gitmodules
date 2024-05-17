@@ -1,0 +1,3 @@
+[submodule "lightsplus-mcu"]
+	path = lightsplus-mcu
+	url = ./lightsplus-mcu
